@@ -1,0 +1,25 @@
+CRITICAL - 2024-04-29 16:00:12 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+[Method: GET, Route: /]
+in APPPATH\Views\partials\header.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-29 16:00:13 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+[Method: GET, Route: /]
+in APPPATH\Views\partials\header.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-29 17:55:30 --> ParseError: syntax error, unexpected token "/", expecting ":"
+[Method: GET, Route: cadastro]
+in APPPATH\Views\partials\header.php on line 4.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(484): CodeIgniter\View\View->render('partials/header', null, true)
+ 3 APPPATH\Views\master.php(10): CodeIgniter\View\View->include('partials/header')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projeto_estoque\\app\\Views\\master.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('master', [], true)
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cadastro', [], true)
+ 8 APPPATH\Controllers\Home.php(13): view('cadastro')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->cadastro()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
